@@ -1,17 +1,24 @@
 {
   "name": "cli-table-2-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert command line table output into json object",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist/",
+    "typings.json"
+  ],
   "scripts": {
-    "test": "grunt"
+    "lint": "tslint 'src/**/*.ts'",
+    "dependency-check": "dependency-check package.json",
+    "build": "rimraf dist/ && tsc",
+    "test": "npm run lint && npm run build && npm run dependency-check"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Quobject/cli-table-2-json.git"
   },
   "keywords": [
-    "consul"
+    "table"
   ],
   "author": "Matthias Ludwig <mludwig@quobject.io>",
   "license": "MIT",
@@ -20,16 +27,14 @@
   },
   "homepage": "https://github.com/Quobject/cli-table-2-json",
   "devDependencies": {
-    "grunt-shell": "~1.1.2",
-    "grunt": "~0.4.5",
-    "grunt-contrib-jshint": "~0.11.3",
-    "mocha": "~2.3.3",
-    "grunt-mocha-test": "~0.12.7",
-    "should": "~7.1.0",
-    "chai": "~3.3.0",
-    "debug": "~2.2.0"
+    "dependency-check": "^2.5.1",
+    "rimraf": "^2.5.2",
+    "ts-node": "^0.7.3",
+    "tslint": "^3.10.2",
+    "tslint-config-standard": "^1.0.0",
+    "typescript": "^1.8.10"
   },
   "dependencies": {
-    "lodash": "~3.10.1"
+    "lodash": "^4.12.0"
   }
 }
