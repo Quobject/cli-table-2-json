@@ -1,7 +1,7 @@
 ﻿/// <reference path="./../typings/index.d.ts" />
 import * as _ from 'lodash'
 
-export default function helloWorld(lines: string[]): any[] {
+export function helloWorld(lines: string[]): any[] {
 
     lines[0] = lines[0].toLowerCase()
     let headerline = lines[0]
