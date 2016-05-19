@@ -1,7 +1,7 @@
 ﻿/// <reference path="./../typings/index.d.ts" />
 import * as _ from 'lodash'
 
-export function helloWorld(lines: string[]): any[] {
+export function cliTable2Json(lines: string[]): any[] {
 
     lines[0] = lines[0].toLowerCase()
     let headerline = lines[0]
