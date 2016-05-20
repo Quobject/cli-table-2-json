@@ -1,5 +1,4 @@
-﻿/// <reference path="./../typings/index.d.ts" />
-import * as _ from 'lodash'
+﻿import * as _ from 'lodash'
 
 export function cliTable2Json(lines: string[]): any[] {
 
