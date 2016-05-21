@@ -1,8 +1,8 @@
 {
   "name": "cli-table-2-json",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Convert command line table output into json object",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "typings":  "dist/index",
   "files": [
     "dist/",
