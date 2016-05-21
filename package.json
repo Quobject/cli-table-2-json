@@ -1,6 +1,6 @@
 {
   "name": "cli-table-2-json",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Convert command line table output into json object",
   "main": "dist/index.ts",
   "typings":  "dist/index",
@@ -38,7 +38,7 @@
     "tap-diff": "^0.1.1",
     "ts-node": "^0.7.3",
     "tslint": "^3.10.2",
-    "tslint-config-standard": "^1.0.0",
+    "tslint-config-standard": "^1.2.1",
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
   },
