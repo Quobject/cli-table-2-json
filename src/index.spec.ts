@@ -2,6 +2,7 @@
 import test = require('blue-tape');
 import {  cliTable2Json } from './index';
 
+
 // const pkg = require('../package.json');
 
 test('cli-table-2-json', t => {

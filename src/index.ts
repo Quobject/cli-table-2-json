@@ -27,7 +27,7 @@ export function cliTable2Json(lines: string[]): any[] {
 
     const item = {};
     result.push(item);
-    _.forEach(locations, function (position, title) {
+    _.forEach(locations, function (position: {start: number, end: number}, title) {
       // console.log('position', title, 'position = ', position);
       item[title] = line.substring(position.start, position.end).trim();
     });

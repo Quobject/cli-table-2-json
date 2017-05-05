@@ -23,7 +23,7 @@ var lines = ['NAME      ACTIVE   DRIVER      STATE     URL                      
               'consul3   -        amazonec2   Running   tcp://54.85.111.241:2376    ',
               ''];
 
-var result = cliTable2Json(lines);
+var result = cliTable2Json.cliTable2Json(lines);
 console.log(result);
 
 //[{
