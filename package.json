@@ -1,6 +1,6 @@
 {
   "name": "cli-table-2-json",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Convert command line table output into json object",
   "main": "dist/index.js",
   "typings": "dist/index",
@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@types/blue-tape": "^0.1.30",
-    "@types/lodash": "4.14.116",
-    "lodash": "4.17.10"
+    "@types/lodash": "4.14.119",
+    "lodash": "4.17.11"
   }
 }
